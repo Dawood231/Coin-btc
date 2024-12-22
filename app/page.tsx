@@ -42,13 +42,13 @@ export default function Home() {
           <div><h3>Total Profit</h3><p>12 November 2024</p></div>
         </div>
         <div className="list">
-          <div className="innerlist"><h4>BTC:</h4> <p>{data?.rates?.BTC ?? 95000.00}$</p> <p className="percen">{Math.ceil(data?.rates?.BTC ?? 0)}%</p> </div>
-          <div className="innerlist"><h4>BNB:</h4> <p>{data?.rates?.BNB ?? 656.245}$</p> <p className="percen">{Math.ceil(data?.rates?.BNB ?? 0)}%</p> </div>
-          <div className="innerlist"><h4>ETH:</h4> <p>{data?.rates?.ETH ?? 3500.876}$</p> <p className="percen">{Math.ceil(data?.rates?.ETH ?? 0)}%</p> </div>
-          <div className="innerlist"><h4>DOGE:</h4> <p>{data?.rates?.DOGE ?? 0.987}$</p> <p className="percen-red">{Math.ceil(data?.rates?.DOGE ?? 0)}%</p> </div>
-          <div className="innerlist"><h4>ACT:</h4> <p>{data?.rates?.ACT ?? 1.456}$</p> <p className="percen-red">{Math.ceil(data?.rates?.ACT ?? 0)}%</p> </div>
-          <div className="innerlist"><h4>DASH:</h4> <p>{data?.rates?.DASH ?? 6.78}$</p> <p className="percen-red">{Math.ceil(data?.rates?.DASH ?? 0)}%</p> </div>
-          <div className="innerlist"><h4>SOL:</h4> <p>{data?.rates?.SOL ?? 16.78}$</p> <p className="percen-yellow">{Math.ceil(data?.rates?.SOL ?? 0)}%</p> </div>
+          <div className="innerlist"><h4>BTC:</h4> <p>{data?.rates?.BTC ?? 95000.00}$</p> <p className="percen">{Math.ceil(data?.rates?.BTC ?? 100)}%</p> </div>
+          <div className="innerlist"><h4>BNB:</h4> <p>{data?.rates?.BNB ?? 656.245}$</p> <p className="percen">{Math.ceil(data?.rates?.BNB ?? 50)}%</p> </div>
+          <div className="innerlist"><h4>ETH:</h4> <p>{data?.rates?.ETH ?? 3500.876}$</p> <p className="percen">{Math.ceil(data?.rates?.ETH ?? 80)}%</p> </div>
+          <div className="innerlist"><h4>DOGE:</h4> <p>{data?.rates?.DOGE ?? 0.987}$</p> <p className="percen-red">{Math.ceil(data?.rates?.DOGE ?? -25)}%</p> </div>
+          <div className="innerlist"><h4>ACT:</h4> <p>{data?.rates?.ACT ?? 1.456}$</p> <p className="percen-red">{Math.ceil(data?.rates?.ACT ?? -0.987)}%</p> </div>
+          <div className="innerlist"><h4>DASH:</h4> <p>{data?.rates?.DASH ?? 6.78}$</p> <p className="percen-red">{Math.ceil(data?.rates?.DASH ?? -0.1)}%</p> </div>
+          <div className="innerlist"><h4>SOL:</h4> <p>{data?.rates?.SOL ?? 16.78}$</p> <p className="percen-yellow">{Math.ceil(data?.rates?.SOL ?? 35)}%</p> </div>
         </div>
       </div>
       <div className="lower-box">
